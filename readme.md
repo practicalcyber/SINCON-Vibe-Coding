@@ -1,19 +1,45 @@
 # SINCON 2025 AI Kampung: Vibe Coding for Security - Project Submissions
 
-![SINCON Logo](https://www.infosec-city.com/images/logo_white.png) **Welcome to the official project submission repository for the SINCON 2025 AI Kampung!**
+![SINCON AI Kampung Banner](https://static.wixstatic.com/media/5cc553_f5197d38a2ff4a96998c25011f02cb3c~mv2.jpg/v1/fill/w_980,h_551,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/5cc553_f5197d38a2ff4a96998c25011f02cb3c~mv2.jpg)
+**Welcome to the official project submission repository for the SINCON 2025 AI Kampung!**
 
-This year, the AI Kampung is all about **"Vibe Coding for Security"** – a hands-on, AI-powered playground where cybersecurity practitioners don't just talk about innovation, they build it. Whether you're red, blue, or somewhere in between, this is your space to experiment, code, and deploy your own cybersecurity tooling with the help of next-gen AI systems.
+This year, we're diving deep into **"Vibe Coding for Security"**. The AI Kampung is your hands-on, AI-powered playground. It's not about just talking about innovation in cybersecurity – it's about *building* it. Whether you're red, blue, or somewhere in between, this is your space to experiment, code, and deploy your own cybersecurity tooling with the help of next-gen AI systems.
+
+*"Some say it's good, some say it's bad. We say, let's play with it!"*
 
 ## 🚀 The Challenge: Vibe Coding for Security
 
-Got a "vibe" for a cool, innovative, or just plain useful security tool or concept? An idea that could help defenders, illuminate attacker techniques, or automate a tedious security task? That's what we want to see!
+Got a "vibe" for a groundbreaking security tool? An idea that could revolutionize defense, illuminate attacker methodologies, or streamline a complex security process? That's the essence of Vibe Coding!
 
-"Vibe Coding" is about starting with that initial spark – the *vibe* – and then harnessing the power of AI (think Large Language Models, code generation, AI-assisted analysis, etc.) to help bring your concept to life. Don't worry if it's not a fully polished enterprise-ready product; we're looking for:
+Start with your innovative concept – your *vibe* – and then leverage the power of AI to bring it to life. We're looking for you to explore, create, and demonstrate:
 
-* **Innovative ideas:** What's the core concept or "vibe"?
-* **Creative use of AI:** How are you leveraging AI in your project's development, functionality, or both?
-* **Practical potential:** Could this idea, even in its early stages, be useful or insightful for the cybersecurity community?
-* **The "Wow" factor:** Does your project have that unique spark?
+* **Innovative Security Applications:** Think AI for autonomous threat hunting, intelligent alert prioritization, AI-driven vulnerability discovery, or using LLMs for secure code generation and review.
+* **Creative Use of AI:** How are you integrating AI into your project? Is AI assisting your development process, or is it a core component of your tool's functionality? Show us your ingenious AI implementations!
+* **Practical Impact:** How can your project make a tangible difference in the cybersecurity landscape?
+
+**This AI Kampung is open to all SINCON participants. Whether you're an AI guru or just AI-curious, a seasoned coder or a beginner, your "vibe" is what matters most!**
+
+## What to Build? (Inspiration from the "Vibes")
+
+Let your creativity run wild! Here are some areas to spark your imagination:
+
+* **AI for Red Teams:**
+    * Automated recon and OSINT gathering
+    * AI-assisted payload generation or adaptation
+    * Intelligent phishing campaign creation
+* **AI for Blue Teams:**
+    * Smart log analysis and anomaly detection
+    * AI-powered incident response playbooks
+    * Predictive threat intelligence
+* **AI for Security Operations:**
+    * Automating compliance checks
+    * Natural language interfaces for security tools
+    * AI-driven security awareness training tools
+* **AI for Secure Development:**
+    * LLM-assisted secure code generation and review
+    * Automated creation of test cases for security vulnerabilities
+
+**The key is to demonstrate a tangible outcome – a working prototype, a proof-of-concept, or a tool that showcases your vibe in action.**
 
 ## Submission Guidelines
 
@@ -23,58 +49,68 @@ This repository is where you'll submit your projects for the AI Kampung.
    Start by forking this repository to your own GitHub account.
 
 **2. Create Your Project Folder:**
-   In your forked repository, create a new folder for your project. Please name it something unique and descriptive, ideally incorporating your team name or your GitHub username (e.g., `TeamAwesomeProject` or `YourName-KillerSecurityTool`).
+   In your forked repository, create a new folder for your project. Please name it something unique and descriptive, ideally incorporating your team name or your GitHub username (e.g., `TeamCyberAI` or `YourName-ThreatScannerAI`).
 
 **3. Project Structure:**
-   Inside your project folder, we encourage you to include:
-    * **`README.md` (Project-Specific):** Essential! See the "Your Project's README" section below.
+   Inside your project folder, we strongly encourage you to include:
+    * **`README.md` (Project-Specific):** Essential! See the "Your Project's README" section below. Use the template provided in `/templates/project_readme_template.md`.
     * **`src/` or `code/`:** A folder containing your source code.
     * **`assets/` (Optional):** Any supporting images, diagrams, or data files.
-    * **`demo/` (Optional but Recommended):** A short video (link to it in your README) or a set of GIFs demonstrating your project.
-    * **`.gitignore`:** (We've included a general Python/AI one in this main repo, feel free to adapt it).
+    * **`demo/` (Highly Recommended):** A short video (link to it in your README) or a set of GIFs demonstrating your project. This is crucial for showcasing your "vibe"!
+    * **`.gitignore`:** (A general Python/AI one is in this main repo; adapt as needed).
 
 **4. Your Project's README (`your_project_folder/README.md`):**
-   This is crucial for the judges and other participants to understand your project. Please use the `project_readme_template.md` (available in the `/templates` folder of this repository) as a starting point. It should cover:
+   This is how you'll explain your project's "vibe" and functionality. It's critical for the judges and community. Please use the `project_readme_template.md` from the `/templates` folder. It should cover:
     * **Project Title:**
     * **Team Name / Your Name(s):**
-    * **The "Vibe":** What's the core idea/problem you're addressing?
-    * **How AI is Used:** Be specific! Which AI models, techniques, or platforms did you use and for what purpose (e.g., code generation, data analysis, UI creation, core logic)?
-    * **Functionality:** What does your project do?
-    * **Setup & Usage:** How can someone run your project? (Include dependencies, API keys needed, etc.)
-    * **Challenges Faced:** (Optional, but interesting!)
-    * **Future Ideas:** (Optional)
-    * **Demo Link:** (If you have one)
+    * **The "Vibe":** What's the core idea/problem you're addressing? What was your inspiration?
+    * **How AI is Used:** Be specific! Which AI models (e.g., GPT-3.5/4, Claude, Llama, local models), techniques, or platforms did you use? How did AI assist in development and/or how is it part of the tool's functionality?
+    * **Functionality:** What does your project do? What are its key features?
+    * **Setup & Usage:** How can someone run your project? (Include dependencies, API keys needed – *do not commit your keys!*, environment setup).
+    * **Challenges Faced & Lessons Learned:** (Optional, but insightful!)
+    * **Demo Link:** (Essential if you have a video/GIFs).
 
 **5. Making a Submission:**
-   * **[Option 1: Pull Request - Preferred for visibility during the event]**
-        Once your project is ready in your forked repository, create a Pull Request (PR) from your fork back to *this* main repository. Title your PR clearly, e.g., "Project Submission: TeamAwesomeProject". This allows us to see all submissions in one place.
-   * **[Option 2: Direct Link - If PRs are not feasible for participants]**
-        Alternatively, if specified by organizers, you might submit a direct link to your project folder within your forked repository via a form or email (details to be provided by AI Kampung organizers).
+   * **Pull Request (PR):** Once your project is ready in your forked repository, create a Pull Request from your fork back to *this* main `[your-org-name]/[this-repo-name]` repository.
+        * Title your PR clearly: `Project Submission: [Your Project Name] - [Team Name/Your Name]`
+        * This helps us track all submissions and allows for easy viewing.
 
 **6. Deadline for Submissions:**
-   * **[To Be Announced - e.g., End of Day 1 of SINCON 2025, May 22, 2025, 11:59 PM SGT]**
-   *(Please replace with actual deadline)*
+   * **[To Be Confirmed by AI Kampung Organizers - e.g., End of Day 1, SINCON 2025, May 22nd, 2025, 23:59 SGT]**
+   *(Please update this with the exact deadline communicated at the AI Kampung!)*
 
-## Judging Criteria (General Vibe)
+## Judging Criteria
 
-While specific criteria might be detailed closer to the event, projects will generally be judged on:
+Projects will be judged by a panel of experts based on:
 
-* 💡 **Innovation & Originality of the "Vibe":** How unique and interesting is the core concept?
-* 🤖 **Effective Use of AI:** How well was AI integrated into the project's development or functionality?
-* 🛡️ **Cybersecurity Relevance & Potential Impact:** How applicable or useful is this to the infosec field?
-* ✨ **Overall Presentation & "Coolness" Factor:** How well is the project presented (README, demo) and does it have that special spark?
-* 🛠️ **Functionality/Execution (within the vibe coding context):** Does the project demonstrate the core idea, even if it's a prototype?
+1.  💡 **Innovation & "Vibe" (40%):**
+    * Originality and creativity of the concept.
+    * How well the project captures an exciting or impactful "vibe" for cybersecurity.
+2.  🤖 **AI Implementation & Effectiveness (30%):**
+    * Cleverness and effectiveness of AI integration (either in the development process or as a core project feature).
+    * Appropriate use of AI to solve the chosen problem.
+3.  🛡️ **Cybersecurity Relevance & Potential Impact (20%):**
+    * Applicability and usefulness to real-world cybersecurity challenges (offensive, defensive, operational).
+    * Potential to make a difference.
+4.  🎬 **Presentation & Demo (10%):**
+    * Clarity of the project's README.
+    * Quality and effectiveness of the demo (if provided) in showcasing the project's functionality and "vibe."
 
-## Getting Help
+## Resources & Support
 
-* If you have questions about the submission process, ask the AI Kampung organizers during SINCON 2025.
-* For issues with this GitHub repository template, you can open an "Issue" here.
+* **AI Kampung Space:** We'll have a dedicated space at SINCON. Come hang out, code, and collaborate!
+* **Mentors:** Experts will be available to provide guidance and answer questions.
+* **Tools & APIs:** We may provide access to specific AI tools or trial APIs during the event (details at the Kampung).
 
-## Let the Vibe Coding Begin!
+## Showcase & Recognition
 
-We're incredibly excited to see what amazing security tools and concepts you'll build with the power of AI. Good luck, have fun, and happy hacking!
+Selected projects will have the opportunity to be showcased! Share your groundbreaking work with the SINCON community. (Details on prizes or further recognition to be announced at the Kampung).
+
+## Let the Vibe Coding Commence!
+
+We are incredibly excited to see the innovative security solutions you develop. Embrace the "vibe," experiment with AI, and build something amazing!
 
 ---
-**Organized by Infosec In The City - SINCON 2025 AI Kampung**
-[Link to SINCON Website](https://www.infosec-city.com/)
-[Link to SINCON 2025 AI Kampung Page if available]
+**Brought to you by Infosec In The City - SINCON 2025 AI Kampung**
+**More Info:** [SINCON 2025 AI Kampung Page](https://www.infosec-city.com/post/sin25-k-ai)
+**Main SINCON Site:** [Infosec In The City](https://www.infosec-city.com/)
